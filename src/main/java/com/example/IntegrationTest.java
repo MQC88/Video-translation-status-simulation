@@ -3,7 +3,7 @@ public class IntegrationTest {
         // You can adjust these values before each run
         double initialInterval = 1.0;  // seconds
         double maxInterval = 8.0;     // seconds
-        int timeout = 80;             // seconds (overall wait)
+        int timeout = 60;             // seconds (overall wait)
 
         System.out.println("----- Integration Test Starting -----");
         System.out.println(" Using initialInterval = " + initialInterval + "s");
